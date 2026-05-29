@@ -2,9 +2,13 @@
 
 ## Paper Collection
 
+Regenerate this table with:
 
+```bash
+python scripts/update_paper_collection_readme.py --input data/paper_collection.xlsx --readme README.md
+```
 
-| Venue | Year / Class | Paper Title | Publication Link |
+| Venue | Year | Paper Title | Publication Link |
 | --- | --- | --- | --- |
 | AAAI | 2021 | Majority Opinion Diffusion in Social Networks: An Adversarial Approach | [Link](https://aaai.org/papers/05611-majority-opinion-diffusion-in-social-networks-an-adversarial-approach/) |
 | AAAI | 2023 | Conditional Diffusion Based on Discrete Graph Structures for Molecular Graph Generatio | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/25549) |
@@ -42,28 +46,28 @@
 | COLING | 2025 | Addressing the Training-Inference Discrepancy in Discrete Diffusion for Text Generation | [Link](https://aclanthology.org/2025.coling-main.477/) |
 | COLM | 2024 | A Reparameterized Discrete Diffusion Model for Text Generation | [Link](https://openreview.net/forum?id=PEQFHRUFca) |
 | COLM | 2025 | Unifying Autoregressive and Diffusion-Based Sequence Generation | [Link](https://openreview.net/forum?id=rgq9BFXSFl) |
-| EMNLP |  | Complex Event Schema Induction with Knowledge-Enriched Diffusion Model | [Link](https://aclanthology.org/2023.findings-emnlp.319/) |
-| EMNLP |  | DeTiME: Diffusion-Enhanced Topic Modeling using Encoder-decoder based LLM | [Link](https://aclanthology.org/2023.findings-emnlp.606.pdf) |
-| EMNLP |  | DiffS2UT: A Semantic Preserving Diffusion Model for Textless Direct Speech-to-Speech Translation | [Link](https://aclanthology.org/2023.emnlp-main.709/) |
-| EMNLP |  | DiffuSeq-v2: Bridging Discrete and Continuous Text Spaces for Accelerated Seq2Seq Diffusion Models | [Link](https://aclanthology.org/2023.findings-emnlp.660/) |
-| EMNLP |  | Diffusion vs. Autoregressive Language Models: A Text Embedding Perspective | [Link](https://aclanthology.org/2025.emnlp-main.213/) |
-| EMNLP |  | Diffusion-NAT: Self-Prompting Discrete Diffusion for Non-Autoregressive Text Generation | [Link](https://aclanthology.org/2024.eacl-long.86.pdf) |
-| EMNLP |  | DiffusionSL: Sequence Labeling via Tag Diffusion Process | [Link](https://aclanthology.org/2023.findings-emnlp.860/) |
-| EMNLP |  | Explicitly Representing Syntax Improves Sentence-to-Layout Prediction of Unexpected Situations | [Link](https://aclanthology.org/2024.tacl-1.15/) |
-| EMNLP |  | Masked Diffusion Captioning for Visual Feature Learning | [Link](https://aclanthology.org/2025.findings-emnlp.1376.pdf) |
-| EMNLP |  | Predicting the Unpredictable: Uncertainty-Aware Reasoning over Temporal Knowledge Graphs via Diffusion Process | [Link](https://aclanthology.org/2024.findings-acl.343.pdf) |
-| EMNLP |  | RethinkingTMSC: An Empirical Study for Target-Oriented Multimodal Sentiment Classification | [Link](https://aclanthology.org/2023.findings-emnlp.21.pdf) |
-| EMNLP |  | Speaking in Wavelet Domain: A Simple and Efficient Approach to Speed up Speech Diffusion Model | [Link](https://aclanthology.org/2024.emnlp-main.9/) |
-| EMNLP |  | SynC-LLM: Generation of Large-Scale Synthetic Circuit Code with Hierarchical Language Models | [Link](https://aclanthology.org/2025.emnlp-main.877.pdf) |
-| EMNLP |  | Unifying Continuous and Discrete Text Diffusion with Non-simultaneous Diffusion Processes | [Link](https://aclanthology.org/2025.acl-long.565.pdf) |
-| EMNLP | [AI安全/对抗] | DiffusionAttacker: Diffusion-Driven Prompt Manipulation for LLM Jailbreak | [Link](https://aclanthology.org/2025.emnlp-main.1128/) |
-| EMNLP | [文本填补/最优传输] | Flexible-length Text Infilling for Discrete Diffusion Models | [Link](https://aclanthology.org/2025.emnlp-main.1597/) |
-| EMNLP | [解码策略/全局奖励] | Reward-Weighted Sampling: Enhancing Non-Autoregressive Characteristics in Masked Diffusion LLMs | [Link](https://aclanthology.org/2025.emnlp-main.1754/) |
-| EMNLP | [采样算法/熵控制] | Conditional [MASK] Discrete Diffusion Language Model | [Link](https://aclanthology.org/2025.emnlp-main.450/) |
-| EMNLP | 优化 | A Cheaper and Better Diffusion Language Model with Soft-Masked Noise | [Link](https://aclanthology.org/2023.emnlp-main.289/) |
-| EMNLP | 应用 | ScanDL: A Diffusion Model for Generating Synthetic Scanpaths on Texts | [Link](https://aclanthology.org/2023.emnlp-main.960/) |
-| EMNLP | 数据增强 | An Effective Deployment of Diffusion LM for Data Augmentation in Low-Resource Sentiment Classification | [Link](https://aclanthology.org/2024.emnlp-main.109/) |
-| EMNLP | 跨模态 | LEAF: Large Language Diffusion Model for Time Series Forecasting | [Link](https://aclanthology.org/2025.findings-emnlp.58/) |
+| EMNLP | 2023 | A Cheaper and Better Diffusion Language Model with Soft-Masked Noise | [Link](https://aclanthology.org/2023.emnlp-main.289/) |
+| EMNLP | 2023 | Complex Event Schema Induction with Knowledge-Enriched Diffusion Model | [Link](https://aclanthology.org/2023.findings-emnlp.319/) |
+| EMNLP | 2023 | DeTiME: Diffusion-Enhanced Topic Modeling using Encoder-decoder based LLM | [Link](https://aclanthology.org/2023.findings-emnlp.606.pdf) |
+| EMNLP | 2023 | DiffS2UT: A Semantic Preserving Diffusion Model for Textless Direct Speech-to-Speech Translation | [Link](https://aclanthology.org/2023.emnlp-main.709/) |
+| EMNLP | 2023 | DiffuSeq-v2: Bridging Discrete and Continuous Text Spaces for Accelerated Seq2Seq Diffusion Models | [Link](https://aclanthology.org/2023.findings-emnlp.660/) |
+| EMNLP | 2023 | DiffusionSL: Sequence Labeling via Tag Diffusion Process | [Link](https://aclanthology.org/2023.findings-emnlp.860/) |
+| EMNLP | 2023 | RethinkingTMSC: An Empirical Study for Target-Oriented Multimodal Sentiment Classification | [Link](https://aclanthology.org/2023.findings-emnlp.21.pdf) |
+| EMNLP | 2023 | ScanDL: A Diffusion Model for Generating Synthetic Scanpaths on Texts | [Link](https://aclanthology.org/2023.emnlp-main.960/) |
+| EMNLP | 2024 | An Effective Deployment of Diffusion LM for Data Augmentation in Low-Resource Sentiment Classification | [Link](https://aclanthology.org/2024.emnlp-main.109/) |
+| EMNLP | 2024 | Diffusion-NAT: Self-Prompting Discrete Diffusion for Non-Autoregressive Text Generation | [Link](https://aclanthology.org/2024.eacl-long.86.pdf) |
+| EMNLP | 2024 | Explicitly Representing Syntax Improves Sentence-to-Layout Prediction of Unexpected Situations | [Link](https://aclanthology.org/2024.tacl-1.15/) |
+| EMNLP | 2024 | Predicting the Unpredictable: Uncertainty-Aware Reasoning over Temporal Knowledge Graphs via Diffusion Process | [Link](https://aclanthology.org/2024.findings-acl.343.pdf) |
+| EMNLP | 2024 | Speaking in Wavelet Domain: A Simple and Efficient Approach to Speed up Speech Diffusion Model | [Link](https://aclanthology.org/2024.emnlp-main.9/) |
+| EMNLP | 2025 | Conditional [MASK] Discrete Diffusion Language Model | [Link](https://aclanthology.org/2025.emnlp-main.450/) |
+| EMNLP | 2025 | Diffusion vs. Autoregressive Language Models: A Text Embedding Perspective | [Link](https://aclanthology.org/2025.emnlp-main.213/) |
+| EMNLP | 2025 | DiffusionAttacker: Diffusion-Driven Prompt Manipulation for LLM Jailbreak | [Link](https://aclanthology.org/2025.emnlp-main.1128/) |
+| EMNLP | 2025 | Flexible-length Text Infilling for Discrete Diffusion Models | [Link](https://aclanthology.org/2025.emnlp-main.1597/) |
+| EMNLP | 2025 | LEAF: Large Language Diffusion Model for Time Series Forecasting | [Link](https://aclanthology.org/2025.findings-emnlp.58/) |
+| EMNLP | 2025 | Masked Diffusion Captioning for Visual Feature Learning | [Link](https://aclanthology.org/2025.findings-emnlp.1376.pdf) |
+| EMNLP | 2025 | Reward-Weighted Sampling: Enhancing Non-Autoregressive Characteristics in Masked Diffusion LLMs | [Link](https://aclanthology.org/2025.emnlp-main.1754/) |
+| EMNLP | 2025 | SynC-LLM: Generation of Large-Scale Synthetic Circuit Code with Hierarchical Language Models | [Link](https://aclanthology.org/2025.emnlp-main.877.pdf) |
+| EMNLP | 2025 | Unifying Continuous and Discrete Text Diffusion with Non-simultaneous Diffusion Processes | [Link](https://aclanthology.org/2025.acl-long.565.pdf) |
 | High-citation | 2015 | Deep Unsupervised Learning using Nonequilibrium Thermodynamics | [Link](https://proceedings.mlr.press/v37/sohl-dickstein15.html) |
 | High-citation | 2021 | Argmax Flows and Multinomial Diffusion: Learning Categorical Distributions | [Link](https://proceedings.neurips.cc/paper_files/paper/2021/hash/67d96d458abdef21792e6d8e590244e7-Abstract.html) |
 | High-citation | 2021 | Beyond In-Place Corruption: Insertion and Deletionin Denoising Probabilistic Models | [Link](https://openreview.net/forum?id=cAsVBUe1Rnj) |
@@ -799,72 +803,73 @@
 | IJCAI | 2023 | Generative Diffusion Models on Graphs: Methods and Applications | [Link](https://www.ijcai.org/proceedings/2023/751) |
 | IJCAI | 2025 | A Prior-based Discrete Diffusion Model for Social Graph Generation | [Link](https://www.ijcai.org/proceedings/2025/397) |
 | IJCAI | 2025 | Antibody Design and Optimization with Multi-scale Equivariant Graph Diffusion Models for Accurate Complex Antigen Binding | [Link](https://www.ijcai.org/proceedings/2025/303) |
-| NAACL |  | Aspect-based Sentiment Analysis with Context Denoising | [Link](https://aclanthology.org/2024.findings-naacl.194/) |
-| NAACL |  | Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning | [Link](https://aclanthology.org/2024.naacl-long.271/) |
-| NAACL |  | Empowering Diffusion Models on the Embedding Space for Text Generation | [Link](https://aclanthology.org/2024.naacl-long.261/) |
-| NAACL |  | LaDiC: Are Diffusion Models Really Inferior to Autoregressive Counterparts for Image-to-Text Generation? | [Link](https://aclanthology.org/2024.naacl-long.373/) |
-| NAACL |  | P3Sum: Preserving Author’s Perspective in News Summarization with Diffusion Language Models | [Link](https://aclanthology.org/2024.naacl-long.119/) |
-| NAACL |  | Private Synthetic Text Generation with Diffusion Models | [Link](https://aclanthology.org/2025.naacl-long.532/) |
-| NAACL |  | StyleTTS-ZS: Efficient High-Quality Zero-Shot Text-to-Speech Synthesis with Distilled Time-Varying Style Diffusion | [Link](https://aclanthology.org/2025.naacl-long.242/) |
-| NAACL | 推理加速 | Speculative Diffusion Decoding: Accelerating Language Generation through Diffusion | [Link](https://aclanthology.org/2025.naacl-long.601/) |
-| NAACL | 摘要生成 | Discrete Diffusion Language Model for Efficient Text Summarization | [Link](https://aclanthology.org/2025.findings-naacl.352/) |
-| NAACL | 离散转连续 | Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation | [Link](https://aclanthology.org/2024.naacl-long.2/) |
-| NeurIPS |  | Absorb and Converge: Provable Convergence Guarantee for Absorbing Discrete Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/117647) |
-| NeurIPS |  | Accelerated Sampling from Masked Diffusion Models via Entropy Bounded Unmasking | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/117618) |
-| NeurIPS |  | Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization | [Link](https://neurips.cc/virtual/2024/poster/96029) |
-| NeurIPS |  | Any-Order Flexible Length Masked Diffusion | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/125446) |
-| NeurIPS |  | AR-Diffusion: Auto-Regressive Diffusion Model for Text Generation | [Link](https://neurips.cc/virtual/2023/poster/73068) |
+| NAACL | 2024 | Aspect-based Sentiment Analysis with Context Denoising | [Link](https://aclanthology.org/2024.findings-naacl.194/) |
+| NAACL | 2024 | Diffusion Glancing Transformer for Parallel Sequence-to-Sequence Learning | [Link](https://aclanthology.org/2024.naacl-long.271/) |
+| NAACL | 2024 | Empowering Diffusion Models on the Embedding Space for Text Generation | [Link](https://aclanthology.org/2024.naacl-long.261/) |
+| NAACL | 2024 | LaDiC: Are Diffusion Models Really Inferior to Autoregressive Counterparts for Image-to-Text Generation? | [Link](https://aclanthology.org/2024.naacl-long.373/) |
+| NAACL | 2024 | P3Sum: Preserving Author’s Perspective in News Summarization with Diffusion Language Models | [Link](https://aclanthology.org/2024.naacl-long.119/) |
+| NAACL | 2024 | Text Diffusion Model with Encoder-Decoder Transformers for Sequence-to-Sequence Generation | [Link](https://aclanthology.org/2024.naacl-long.2/) |
+| NAACL | 2025 | Discrete Diffusion Language Model for Efficient Text Summarization | [Link](https://aclanthology.org/2025.findings-naacl.352/) |
+| NAACL | 2025 | Private Synthetic Text Generation with Diffusion Models | [Link](https://aclanthology.org/2025.naacl-long.532/) |
+| NAACL | 2025 | Speculative Diffusion Decoding: Accelerating Language Generation through Diffusion | [Link](https://aclanthology.org/2025.naacl-long.601/) |
+| NAACL | 2025 | StyleTTS-ZS: Efficient High-Quality Zero-Shot Text-to-Speech Synthesis with Distilled Time-Varying Style Diffusion | [Link](https://aclanthology.org/2025.naacl-long.242/) |
+| NeurIPS | 2021 | Structured Denoising Diffusion Models in Discrete State-Spaces | [Link](https://papers.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) |
+| NeurIPS | 2022 | Masked Generative Adversarial Networks are Data-Efficient Generation Learners | [Link](https://proceedings.neurips.cc/paper_files/paper/2022/hash/0efcb1885b8534109f95ca82a5319d25-Abstract-Conference.html) |
+| NeurIPS | 2022 | MaskGIT: Masked Generative Image Transformer | [Link](https://openaccess.thecvf.com/content/CVPR2022/html/Chang_MaskGIT_Masked_Generative_Image_Transformer_CVPR_2022_paper.html) |
+| NeurIPS | 2022 | Vector Quantized Diffusion Model for Text-to-Image Synthesis | [Link](https://openaccess.thecvf.com/content/CVPR2022/html/Gu_Vector_Quantized_Diffusion_Model_for_Text-to-Image_Synthesis_CVPR_2022_paper.html) |
+| NeurIPS | 2023 | AR-Diffusion: Auto-Regressive Diffusion Model for Text Generation | [Link](https://neurips.cc/virtual/2023/poster/73068) |
+| NeurIPS | 2023 | Characterizing and Measuring Linguistic Dataset Drift | [Link](https://aclanthology.org/2023.acl-long.498/) |
+| NeurIPS | 2023 | Improving Discrete Diffusion Models via Structured Preferential Masking | [Link](https://neurips.cc/virtual/2023/74850) |
+| NeurIPS | 2023 | Protein Design with Guided Discrete Diffusion | [Link](https://neurips.cc/virtual/2023/poster/71899) |
+| NeurIPS | 2023 | TextDiffuser: Diffusion Models as Text Painters | [Link](https://neurips.cc/virtual/2023/poster/70636) |
+| NeurIPS | 2024 | Aligning Target-Aware Molecule Diffusion Models with Exact Energy Optimization | [Link](https://neurips.cc/virtual/2024/poster/96029) |
+| NeurIPS | 2024 | Breaking Determinism: Fuzzy Modeling of Sequential Recommendation Using Discrete State Space Diffusion Model | [Link](https://neurips.cc/virtual/2024/poster/94096) |
+| NeurIPS | 2024 | Di2Pose: Discrete Diffusion Model for Occluded 3D Human Pose Estimation | [Link](https://neurips.cc/virtual/2024/poster/93586) |
+| NeurIPS | 2024 | Discrete Flow Matching | [Link](https://neurips.cc/virtual/2024/poster/95902) |
+| NeurIPS | 2024 | Discrete-state Continuous-time Diffusion for Graph Generation | [Link](https://neurips.cc/virtual/2024/poster/94674) |
+| NeurIPS | 2024 | Fast Sampling via Discrete Non-Markov Diffusion Models with Predetermined Transition Time | [Link](https://neurips.cc/virtual/2024/poster/95646) |
+| NeurIPS | 2024 | MC-DiT: Contextual Enhancement via Clean-to-Clean Reconstruction for Masked Diffusion Models | [Link](https://neurips.cc/virtual/2024/poster/93037) |
+| NeurIPS | 2024 | Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent | [Link](https://aclanthology.org/2024.acl-long.152/) |
+| NeurIPS | 2024 | Simple and Effective Masked Diffusion Language Models | [Link](https://neurips.cc/virtual/2024/poster/95622) |
+| NeurIPS | 2024 | Simplified and Generalized Masked Diffusion for Discrete Data | [Link](https://neurips.cc/virtual/2024/poster/93071) |
+| NeurIPS | 2024 | Unlocking the Capabilities of Masked Generative Models for Image Synthesis via Self-Guidance | [Link](https://neurips.cc/virtual/2024/poster/96852) |
+| NeurIPS | 2025 | Absorb and Converge: Provable Convergence Guarantee for Absorbing Discrete Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/117647) |
+| NeurIPS | 2025 | Accelerated Sampling from Masked Diffusion Models via Entropy Bounded Unmasking | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/117618) |
+| NeurIPS | 2025 | Any-Order Flexible Length Masked Diffusion | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/125446) |
+| NeurIPS | 2025 | Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116103) |
+| NeurIPS | 2025 | Breaking AR’s Sampling Bottleneck: Provable Acceleration via Diffusion Language Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/115552) |
+| NeurIPS | 2025 | Constrained Discrete Diffusion | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119091) |
+| NeurIPS | 2025 | Derivative-Free Guidance in Continuous and Discrete Diffusion Models with Soft Value-based Decoding | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119789) |
+| NeurIPS | 2025 | Discrete Spatial Diffusion: Intensity-Preserving Diffusion Modeling | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116326) |
+| NeurIPS | 2025 | Fast Solvers for Discrete Diffusion Models: Theory and Applications of High-Order Algorithms | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118258) |
+| NeurIPS | 2025 | Feedback Guidance of Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119581) |
+| NeurIPS | 2025 | Improved Sampling from Masked Diffusion Models with Position Contrastive Guidance | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/125443) |
+| NeurIPS | 2025 | Information-Theoretic Discrete Diffusion | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119416) |
+| NeurIPS | 2025 | Informed Correctors for Discrete Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118907) |
+| NeurIPS | 2025 | KLASS: KL-Guided Fast Inference in Masked Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116747) |
+| NeurIPS | 2025 | Large Language Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118608) |
+| NeurIPS | 2025 | Learnable Sampler Distillation for Discrete Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116751) |
+| NeurIPS | 2025 | Masked Diffusion Models as Energy Minimization | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119627) |
+| NeurIPS | 2025 | MDNS: Masked Diffusion Neural Sampler via Stochastic Optimal Control | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/115255) |
+| NeurIPS | 2025 | Metis: A Foundation Speech Generation Model with Masked Generative Pre-training | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118023) |
+| NeurIPS | 2025 | Non-Markovian Discrete Diffusion with Causal Language Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/115857) |
+| NeurIPS | 2025 | Plug-and-Play Context Feature Reuse for Efficient Masked Generation | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116393) |
+| NeurIPS | 2025 | Reinforcement Learning Meets Masked Generative Models: Mask-GRPO for Text-to-Image Generation | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119326) |
+| NeurIPS | 2025 | RETRO SYNFLOW: Discrete Flow-Matching for Accurate and Diverse Single-Step Retrosynthesis | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/117074) |
+| NeurIPS | 2025 | ShortListing Model: A Streamlined Simplex Diffusion for Discrete Variable Generation | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/117372) |
+| NeurIPS | 2025 | Split Gibbs Discrete Diffusion Posterior Sampling | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/117795) |
+| NeurIPS | 2025 | State Size Independent Statistical Error Bound for Discrete Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118983) |
+| NeurIPS | 2025 | Think while You Generate: Discrete Diffusion with Planned Denoising | [Link](https://iclr.cc/virtual/2025/poster/29942) |
+| NeurIPS | 2026 | The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs | [Link](https://iclr.cc/virtual/2026/poster/10007159) |
 | NeurIPS |  | Argmax flows and multinomial diffusion: learning categorical distributions | [Link](https://dl.acm.org/doi/10.5555/3540261.3541214) |
-| NeurIPS |  | Breaking AR’s Sampling Bottleneck: Provable Acceleration via Diffusion Language Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/115552) |
-| NeurIPS |  | Breaking Determinism: Fuzzy Modeling of Sequential Recommendation Using Discrete State Space Diffusion Model | [Link](https://neurips.cc/virtual/2024/poster/94096) |
-| NeurIPS |  | Characterizing and Measuring Linguistic Dataset Drift | [Link](https://aclanthology.org/2023.acl-long.498/) |
 | NeurIPS |  | Concrete Score Matching: Generalized Score Matching for Discrete Data | [Link](https://arxiv.org/abs/2211.00802) |
 | NeurIPS |  | Concrete score matching: generalized score matching for discrete data | [Link](https://dl.acm.org/doi/10.5555/3600270.3602772) |
-| NeurIPS |  | Constrained Discrete Diffusion | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119091) |
-| NeurIPS |  | Derivative-Free Guidance in Continuous and Discrete Diffusion Models with Soft Value-based Decoding | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119789) |
+| NeurIPS |  | d3LLM: Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation | [Link](https://arxiv.org/abs/2601.07568) |
 | NeurIPS |  | DICE: Discrete Inversion Enabling Controllable Editing for Multinomial Diffusion and Masked Generative Models | [Link](https://arxiv.org/abs/2410.08207) |
-| NeurIPS |  | Discrete Flow Matching | [Link](https://neurips.cc/virtual/2024/poster/95902) |
-| NeurIPS |  | Discrete Spatial Diffusion: Intensity-Preserving Diffusion Modeling | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116326) |
-| NeurIPS |  | Discrete-state Continuous-time Diffusion for Graph Generation | [Link](https://neurips.cc/virtual/2024/poster/94674) |
-| NeurIPS |  | Fast Solvers for Discrete Diffusion Models: Theory and Applications of High-Order Algorithms | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118258) |
-| NeurIPS |  | Feedback Guidance of Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119581) |
-| NeurIPS |  | Improved Sampling from Masked Diffusion Models with Position Contrastive Guidance | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/125443) |
-| NeurIPS |  | Improving Discrete Diffusion Models via Structured Preferential Masking | [Link](https://neurips.cc/virtual/2023/74850) |
-| NeurIPS |  | Information-Theoretic Discrete Diffusion | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119416) |
-| NeurIPS |  | KLASS: KL-Guided Fast Inference in Masked Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116747) |
-| NeurIPS |  | Large Language Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118608) |
-| NeurIPS |  | Learnable Sampler Distillation for Discrete Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116751) |
 | NeurIPS |  | Likelihood-Based Diffusion Language Models | [Link](https://openreview.net/forum?id=e2MCL6hObn&noteId=ueUWS1aqtE) |
 | NeurIPS |  | Mask-Predict: Parallel Decoding of Conditional Masked Language Models | [Link](https://aclanthology.org/D19-1633/) |
-| NeurIPS |  | Masked Generative Adversarial Networks are Data-Efficient Generation Learners | [Link](https://proceedings.neurips.cc/paper_files/paper/2022/hash/0efcb1885b8534109f95ca82a5319d25-Abstract-Conference.html) |
-| NeurIPS |  | MaskGIT: Masked Generative Image Transformer | [Link](https://openaccess.thecvf.com/content/CVPR2022/html/Chang_MaskGIT_Masked_Generative_Image_Transformer_CVPR_2022_paper.html) |
-| NeurIPS |  | MC-DiT: Contextual Enhancement via Clean-to-Clean Reconstruction for Masked Diffusion Models | [Link](https://neurips.cc/virtual/2024/poster/93037) |
-| NeurIPS |  | MDNS: Masked Diffusion Neural Sampler via Stochastic Optimal Control | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/115255) |
-| NeurIPS |  | Plug-and-Play Context Feature Reuse for Efficient Masked Generation | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116393) |
-| NeurIPS |  | Protein Design with Guided Discrete Diffusion | [Link](https://neurips.cc/virtual/2023/poster/71899) |
-| NeurIPS |  | Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent | [Link](https://aclanthology.org/2024.acl-long.152/) |
-| NeurIPS |  | RETRO SYNFLOW: Discrete Flow-Matching for Accurate and Diverse Single-Step Retrosynthesis | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/117074) |
-| NeurIPS |  | ShortListing Model: A Streamlined Simplex Diffusion for Discrete Variable Generation | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/117372) |
-| NeurIPS |  | State Size Independent Statistical Error Bound for Discrete Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118983) |
-| NeurIPS |  | Structured Denoising Diffusion Models in Discrete State-Spaces | [Link](https://papers.neurips.cc/paper/2021/file/958c530554f78bcd8e97125b70e6973d-Paper.pdf) |
-| NeurIPS |  | TextDiffuser: Diffusion Models as Text Painters | [Link](https://neurips.cc/virtual/2023/poster/70636) |
-| NeurIPS |  | The Devil behind the mask: An emergent safety vulnerability of Diffusion LLMs | [Link](https://iclr.cc/virtual/2026/poster/10007159) |
-| NeurIPS |  | Think while You Generate: Discrete Diffusion with Planned Denoising | [Link](https://iclr.cc/virtual/2025/poster/29942) |
-| NeurIPS |  | Vector Quantized Diffusion Model for Text-to-Image Synthesis | [Link](https://openaccess.thecvf.com/content/CVPR2022/html/Gu_Vector_Quantized_Diffusion_Model_for_Text-to-Image_Synthesis_CVPR_2022_paper.html) |
-| NeurIPS |  | Split Gibbs Discrete Diffusion Posterior Sampling | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/117795) |
-| NeurIPS |  | Beyond Masked and Unmasked: Discrete Diffusion Models via Partial Masking | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/116103) |
-| NeurIPS |  | Unlocking the Capabilities of Masked Generative Models for Image Synthesis via Self-Guidance | [Link](https://neurips.cc/virtual/2024/poster/96852) |
-| NeurIPS |  | Reinforcement Learning Meets Masked Generative Models: Mask-GRPO for Text-to-Image Generation | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119326) |
-| NeurIPS |  | Non-Markovian Discrete Diffusion with Causal Language Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/115857) |
-| NeurIPS |  | Simplified and Generalized Masked Diffusion for Discrete Data | [Link](https://neurips.cc/virtual/2024/poster/93071) |
-| NeurIPS |  | Masked Diffusion Models as Energy Minimization | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/119627) |
-| NeurIPS |  | Metis: A Foundation Speech Generation Model with Masked Generative Pre-training | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118023) |
-| NeurIPS |  | Fast Sampling via Discrete Non-Markov Diffusion Models with Predetermined Transition Time | [Link](https://neurips.cc/virtual/2024/poster/95646) |
-| NeurIPS |  | Informed Correctors for Discrete Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118907) |
-| NeurIPS |  | Di2Pose: Discrete Diffusion Model for Occluded 3D Human Pose Estimation | [Link](https://neurips.cc/virtual/2024/poster/93586) |
-| NeurIPS |  | d3LLM: Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation | [Link](https://arxiv.org/abs/2601.07568) |
-| NeurIPS |  | Simple and Effective Masked Diffusion Language Models | [Link](https://neurips.cc/virtual/2024/poster/95622) |
 | TMLR |  | Cometh: A continuous-time discrete-state graph diffusion model | [Link](https://openreview.net/forum?id=AY89HCxunl) |
+| TMLR |  | Discrete Diffusion in Large Language and Multimodal Models: A Survey | [Link](https://openreview.net/forum?id=0DsqnkP8Cp) |
 | TMLR |  | Discrete Graph Auto-Encoder | [Link](https://arxiv.org/abs/2306.07735) |
 | TMLR |  | Discrete Interpolants: Unifying the Masked Generative and Discrete Diffusion Models | [Link](https://openreview.net/forum?id=CkAHiOUvOx) |
 | TMLR |  | Efficient Object-Centric Representation Learning using Masked Generative Modeling | [Link](https://openreview.net/forum?id=t9KvOYPeL3) |
@@ -875,4 +880,3 @@
 | TMLR |  | Guided Discrete Diffusion for Electronic Health Record Generation | [Link](https://openreview.net/forum?id=N2rWhTgits) |
 | TMLR |  | On the Inherent Privacy Properties of Discrete Denoising Diffusion Models | [Link](https://openreview.net/forum?id=UuU6C6CUoF) |
 | TMLR |  | SparseDiff: Sparse Discrete Diffusion for Scalable Graph Generation | [Link](https://openreview.net/forum?id=kuJ3lpxnVC) |
-| TMLR |  | Survey！！！！！！！！ | Discrete Diffusion in Large Language and Multimodal Models: A Survey | [Link](https://openreview.net/forum?id=0DsqnkP8Cp) |
