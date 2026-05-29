@@ -863,16 +863,16 @@
 | NeurIPS |  | Informed Correctors for Discrete Diffusion Models | [Link](https://neurips.cc/virtual/2025/loc/san-diego/poster/118907) |
 | NeurIPS |  | Di2Pose: Discrete Diffusion Model for Occluded 3D Human Pose Estimation | [Link](https://neurips.cc/virtual/2024/poster/93586) |
 | NeurIPS |  | d3LLM: Ultra-Fast Diffusion LLM using Pseudo-Trajectory Distillation | [Link](https://arxiv.org/abs/2601.07568) |
-| NeurIPS |  | 架构 | Simple and Effective Masked Diffusion Language Models | [Link](https://neurips.cc/virtual/2024/poster/95622) |
-| TMLR |  |  | Cometh: A continuous-time discrete-state graph diffusion model | [Link](https://openreview.net/forum?id=AY89HCxunl) |
-| TMLR |  |  | Discrete Graph Auto-Encoder | [Link](https://arxiv.org/abs/2306.07735) |
-| TMLR |  |  | Discrete Interpolants: Unifying the Masked Generative and Discrete Diffusion Models | [Link](https://openreview.net/forum?id=CkAHiOUvOx) |
-| TMLR |  |  | Efficient Object-Centric Representation Learning using Masked Generative Modeling | [Link](https://openreview.net/forum?id=t9KvOYPeL3) |
-| TMLR |  |  | From discrete-time policies to continuous-time diffusion samplers: Asymptotic equivalences and faster training | [Link](https://arxiv.org/abs/2501.06148) |
-| TMLR |  |  | G2D2: Gradient-Guided Discrete Diffusion for Inverse Problem Solving | [Link](https://openreview.net/forum?id=fj23qnVifX) |
-| TMLR |  |  | GeNIe: Generative Hard Negative Images Through Diffusion | [Link](https://openreview.net/forum?id=VuLEOyTiPO) |
-| TMLR |  |  | GraphMaker: Can Diffusion Models Generate Large Attributed Graphs? | [Link](https://openreview.net/forum?id=ledQ1BCrwc) |
-| TMLR |  |  | Guided Discrete Diffusion for Electronic Health Record Generation | [Link](https://openreview.net/forum?id=N2rWhTgits) |
-| TMLR |  |  | On the Inherent Privacy Properties of Discrete Denoising Diffusion Models | [Link](https://openreview.net/forum?id=UuU6C6CUoF) |
-| TMLR |  |  | SparseDiff: Sparse Discrete Diffusion for Scalable Graph Generation | [Link](https://openreview.net/forum?id=kuJ3lpxnVC) |
+| NeurIPS |  | Simple and Effective Masked Diffusion Language Models | [Link](https://neurips.cc/virtual/2024/poster/95622) |
+| TMLR |  | Cometh: A continuous-time discrete-state graph diffusion model | [Link](https://openreview.net/forum?id=AY89HCxunl) |
+| TMLR |  | Discrete Graph Auto-Encoder | [Link](https://arxiv.org/abs/2306.07735) |
+| TMLR |  | Discrete Interpolants: Unifying the Masked Generative and Discrete Diffusion Models | [Link](https://openreview.net/forum?id=CkAHiOUvOx) |
+| TMLR |  | Efficient Object-Centric Representation Learning using Masked Generative Modeling | [Link](https://openreview.net/forum?id=t9KvOYPeL3) |
+| TMLR |  | From discrete-time policies to continuous-time diffusion samplers: Asymptotic equivalences and faster training | [Link](https://arxiv.org/abs/2501.06148) |
+| TMLR |  | G2D2: Gradient-Guided Discrete Diffusion for Inverse Problem Solving | [Link](https://openreview.net/forum?id=fj23qnVifX) |
+| TMLR |  | GeNIe: Generative Hard Negative Images Through Diffusion | [Link](https://openreview.net/forum?id=VuLEOyTiPO) |
+| TMLR |  | GraphMaker: Can Diffusion Models Generate Large Attributed Graphs? | [Link](https://openreview.net/forum?id=ledQ1BCrwc) |
+| TMLR |  | Guided Discrete Diffusion for Electronic Health Record Generation | [Link](https://openreview.net/forum?id=N2rWhTgits) |
+| TMLR |  | On the Inherent Privacy Properties of Discrete Denoising Diffusion Models | [Link](https://openreview.net/forum?id=UuU6C6CUoF) |
+| TMLR |  | SparseDiff: Sparse Discrete Diffusion for Scalable Graph Generation | [Link](https://openreview.net/forum?id=kuJ3lpxnVC) |
 | TMLR |  | Survey！！！！！！！！ | Discrete Diffusion in Large Language and Multimodal Models: A Survey | [Link](https://openreview.net/forum?id=0DsqnkP8Cp) |
